@@ -30,5 +30,8 @@ public class T1_CydeoVerifications {
 
         // 4. Verify title:
         //Expected: Practice
+
+        String expectedTitle = "Practice";
+        String actualTitle = driver.getTitle();
     }
 }
