@@ -33,5 +33,11 @@ public class T1_CydeoVerifications {
 
         String expectedTitle = "Practice";
         String actualTitle = driver.getTitle();
+
+        if (actualTitle.equals(expectedTitle)){
+            System.out.println("Title verification PASSED!");
+        }else{
+            System.out.println("Title verification FAILED!!!");
+        }
     }
 }
