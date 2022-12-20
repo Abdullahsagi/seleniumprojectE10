@@ -23,7 +23,7 @@ public class Task1_YahooTitleVerification {
 
 
         // 3. Verify title:
-        // Expected: Yahoo UK | News, email and search
+        // Expected: Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos
         String expectedTitle =  "Yahoo UK | News, email and search";
 
         //Actual title comes from the browser
