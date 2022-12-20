@@ -47,5 +47,6 @@ public class T2_LinkText_Practice {
         }else {
             System.out.println("Title verification FAILED!!!");
         }
+        driver.close();
     }
 }
