@@ -15,6 +15,9 @@ public class Task1_YahooTitleVerification {
         //1. Open Chrome browser
         WebDriver driver = new ChromeDriver();
 
+        //Make our page fullscreen
+        driver.manage().window().maximize();
+
         // 2. Go to https://www.yahoo.com
         driver.get("https://www.yahoo.com");
 
