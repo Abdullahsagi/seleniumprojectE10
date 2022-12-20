@@ -46,6 +46,7 @@ public class BasicNavigations {
         // use navigate().to():
         driver.navigate().to("https://www.google.com");
 
+      //get the current title after getting the google page
         currentTitle = driver.getTitle();
 
 
@@ -53,6 +54,11 @@ public class BasicNavigations {
 
 
         System.out.println("currentTitle = " + currentTitle);
+
+
+        //Get the current URL using Selenium
+        String currentUrl   = driver.getCurrentUrl();
+
 
 
 
