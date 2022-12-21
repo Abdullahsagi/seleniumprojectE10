@@ -29,6 +29,7 @@ public class T5_getText_getAttribute {
         }
 
         // 4- Locate “First name” input box
-        //5- Verify placeholder attribute’s value is as expected: Expected: first name
+        //5- Verify placeholder attribute’s value is as expected:
+        // Expected: first name
     }
 }
