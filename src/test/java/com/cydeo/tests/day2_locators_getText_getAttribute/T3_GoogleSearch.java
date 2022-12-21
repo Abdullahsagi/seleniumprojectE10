@@ -23,6 +23,9 @@ public class T3_GoogleSearch {
         // 4- PRESS ENTER using Keys.ENTER
         WebElement googleSearchBox = driver.findElement(By.name("q"));
         googleSearchBox.sendKeys("apple" + Keys.ENTER);
+
+        // 5- Verify title:
+        // Expected: Title should start with “apple” word
         String expectedInTitle = "apple";
         String actualTitle = driver.getTitle();
 
@@ -33,9 +36,5 @@ public class T3_GoogleSearch {
               System.out.println("Title verification FAILED!!!");
           }
 
-
-
-        // 5- Verify title:
-       // Expected: Title should start with “apple” word
     }
 }
