@@ -40,6 +40,7 @@ public class T5_getText_getAttribute {
         }else{
             System.out.println("Placeholder text verification FAILED");
         }
+        driver.close();
 
     }
 }
